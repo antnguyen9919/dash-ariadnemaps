@@ -3,8 +3,8 @@ from dash import dcc,html
 from dash.dependencies import Input,Output
 
 #Connect to main app.py file 
-from app import app 
-
+# from app import app 
+from app import server 
 from apps import vgames,global_sales 
 
 app.layout=html.Div([html.Div([
